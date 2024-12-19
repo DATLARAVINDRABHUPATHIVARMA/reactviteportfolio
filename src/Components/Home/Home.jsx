@@ -1,5 +1,5 @@
 import React from "react";
-import Typewriter from "react-typewriter-effect";
+import { Typewriter } from "react-simple-typewriter";
 
 export default function Home() {
   return (
@@ -39,16 +39,16 @@ export default function Home() {
             <span className="primary-text">
               {" "}
               <h1>
+                I'm a {' '}
                 <Typewriter
-                  multiText={[
-                    "Hello, World!",
-                    "Welcome to React with Vite!",
-                    "Enjoy the Speed of Vite!"
+                  words={[
+                    "Web Developer🌐",
+                    "Problem Solver📈",
+                    "Full Stack Developer💻",
+                    "Team Player👨‍💼", 
+                    "Mern Dev👨‍💻"
                   ]}
-                  multiTextDelay={1000}
-                  typeSpeed={100}
-                  deleteSpeed={50}
-                  loop
+                  loop={[]}
                 />
               </h1>
             </span>
