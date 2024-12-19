@@ -1,6 +1,5 @@
 import React from "react";
-import Typical from 'typical';
-
+import Typewriter from "react-typewriter-effect";
 
 export default function Home() {
   return (
@@ -30,14 +29,27 @@ export default function Home() {
           <div className="home-details-name">
             <span className="primary-text">
               {" "}
-              Hello, I'M <span className="highlighted-text">DATLA RAVINDRA BHUPATHI VARMA</span>
+              Hello, I'M{" "}
+              <span className="highlighted-text">
+                DATLA RAVINDRA BHUPATHI VARMA
+              </span>
             </span>
           </div>
           <div className="home-details-role">
             <span className="primary-text">
               {" "}
               <h1>
-              <Typical/>
+                <Typewriter
+                  multiText={[
+                    "Hello, World!",
+                    "Welcome to React with Vite!",
+                    "Enjoy the Speed of Vite!"
+                  ]}
+                  multiTextDelay={1000}
+                  typeSpeed={100}
+                  deleteSpeed={50}
+                  loop
+                />
               </h1>
             </span>
           </div>
