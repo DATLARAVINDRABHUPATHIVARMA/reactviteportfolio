@@ -1,8 +1,12 @@
 import React from 'react'
+import Home from './Components/Home/Home.jsx'
+
 
 
 function App() {
-  return 
+  return <>
+  <Home/>
+  </>
 }
 
 export default App
