@@ -1,5 +1,6 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
+import './Home.css'
 
 export default function Home() {
   return (
@@ -54,7 +55,7 @@ export default function Home() {
                 />
               </h1>
               <span className="home-role-tagline">
-                Building your success online
+                Knack of building applications with fullStack operations.
               </span>
             </span>
           </div>
