@@ -32,8 +32,8 @@ export default function Home() {
           <div className="home-details-name">
             <span className="primary-text">
               {" "}
-              Hello, I'M{" "}
-              <span className="highlighted-text">
+              Hello, I'm{" "}
+              <span className="highlighted-text" >
                 DATLA RAVINDRA BHUPATHI VARMA
               </span>
             </span>
