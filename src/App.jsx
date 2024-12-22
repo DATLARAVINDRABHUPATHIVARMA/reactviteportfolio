@@ -1,11 +1,11 @@
 import React from 'react'
-import Home from './Components/Home/Home.jsx'
-import Footer from './Components/Home/Footer/Footer.jsx'
+import H1 from './Components/Home/H1'
+
+
 
 function App() {
   return <>
-  <Home/>
-  <Footer/>
+  <H1/>
   </>
 }
 
