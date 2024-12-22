@@ -1,5 +1,6 @@
 import React from 'react'
 import Home from './Components/Home/Home.jsx'
+import Footer from './Components/Home/Footer/Footer.jsx'
 
 
 
@@ -7,6 +8,7 @@ import Home from './Components/Home/Home.jsx'
 function App() {
   return <>
   <Home/>
+  <Footer/>
   </>
 }
 
